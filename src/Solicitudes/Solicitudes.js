@@ -76,7 +76,7 @@ class Solicitudes extends Component {
                 <div className='container' style={{ padding: `40px 0px` }}>
                     <div className='row'>
                         <div className='col-sm-4'>
-                            <h2>Formulario de solicitudes</h2>
+                            <h2>Formulario</h2>
                             <form onSubmit={this.insertarInfo.bind(this)} ref='contactForm' >
                                 <div className='form-group'>
                                     <label htmlFor='nombre'>Nombre</label>
